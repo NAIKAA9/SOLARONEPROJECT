@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - SolarOne</title>
+    <link rel="stylesheet" href="contact.css">
+    <script src="https://cdn.jsdelivr.net/npm/ionicons@5.5.2/dist/ionicons.js"></script> <!-- Ionicons for social media icons -->
+</head>
+<body>
+
+    <!-- Contact Us Section -->
+    <section id="contact-us" class="contact-us">
+        <div class="container">
+            <h2>Contact Us</h2>
+
+            <!-- Contact Form -->
+            <div class="contact-form">
+                <h3>Request a Free Quote or Consultation</h3>
+                <form action="#" method="POST">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="phone">Your Phone:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                    
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+
+            <!-- Location Map -->
+            <div class="location-map">
+                <h3>Our Location</h3>
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345094237!2d144.95373531531063!3d-37.81627997975163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f9c3dfb%3A0x5045675218ceedc0!2sSolarOne%20Office!5e0!3m2!1sen!2sus!4v1637078481776!5m2!1sen!2sus" 
+                    width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+
+            <!-- Contact Information -->
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <p><strong>Phone:</strong> +91 9989304469</p>
+                <p><strong>Email:</strong> <a href="mailto:info@solarone.com">info@solarone.com</a></p>
+                <p><strong>Follow Us:</strong></p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/narasimhanayak.eslavath"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="https://twitter.com/Narasim68390163?t=jYxOWcPOPUk9outw2LcN2g&s=08"><ion-icon name="logo-twitter"></ion-icon></a>
+                    <a href="https://www.instagram.com/narasimhanaik295?igsh=OHlxOG1lbjJvNXQw"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href="https://www.linkedin.com/in/eslavath-narasimha-naik-59615a279?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><ion-icon name="logo-linkedin"></ion-icon></a>
+                </div>
+            </div>
+
+            <!-- Live Chat -->
+            <div class="live-chat">
+                <h3>Need Help? Chat with Us!</h3>
+                <button id="chat-button">Chat Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Optional Customer Portal Section -->
+    <section id="customer-portal" class="customer-portal">
+        <div class="container">
+            <h2>Customer Portal (Optional)</h2>
+            <p>Log in to your account to view your energy usage, billing details, and system status.</p>
+            <form action="#" method="POST">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 SolarOne. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="contact.js"></script>
+</body>
+</html>

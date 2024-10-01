@@ -1,0 +1,127 @@
+/* Knowledge Hub Section */
+.knowledge-hub {
+    background: #d0d3d4 ;
+    padding: 40px 0;
+}
+
+.knowledge-hub h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.articles {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.article {
+    background: white ;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    flex: 1 1 30%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.article h3 {
+    color: #333;
+}
+
+.article a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007bff;
+}
+
+/* Case Studies & Testimonials Section */
+.case-studies {
+    padding: 40px 0;
+
+}
+.case-studies {
+    background: #d0d3d4;
+    padding: 40px 0;
+}
+
+.case-studies h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.success-stories {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.story, .video-testimonial, .ratings {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    flex: 1 1 30%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.story img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* FAQs Section */
+.faqs {
+    background:  #d0d3d4;
+    padding: 40px 0;
+}
+
+.faqs h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.faq-category {
+    margin: 20px;
+}
+
+.faq-item h4 {
+    cursor: pointer;
+    color: #007bff;
+}
+
+/* Sustainability Impact Section */
+.sustainability-impact {
+    padding: 40px 0;
+}
+
+.sustainability-impact h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.impact-statistics {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.statistic {
+    background:  white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    flex: 1 1 30%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.sustainability-impact{
+    background: #d0d3d4 ;
+    padding: 40px 0;
+}
+
+/* General Footer */
+footer {
+    background: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}

@@ -1,0 +1,112 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color:#f7f9f9  ;
+}
+
+/* Navbar */
+.navbar {
+    background: blue;
+    color: orange;
+    padding: 1rem;
+}
+
+.navbar h1 {
+    display: inline;
+}
+
+.navbar ul {
+    list-style: none;
+    display: inline;
+    float: right;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.navbar ul li a {
+    color:orange;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar ul li a:hover {
+    color: #ff9800;
+}
+
+/* Hero Section */
+.hero {
+    background: url('policy1.jpg') no-repeat center center/cover;
+    color: blanchedalmond;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+/* Sections */
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.policy-overview, .incentives-section, .guidelines-section {
+    background-color:#f7f9f9  ;
+}
+
+.guidelines, .incentives {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.incentive-item, .guideline-item {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.incentive-item h3, .guideline-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* FAQ Section */
+.faq {
+    display: block;
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+}
+
+.faq-item h3 {
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}

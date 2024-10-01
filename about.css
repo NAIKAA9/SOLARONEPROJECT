@@ -1,0 +1,182 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #839192;
+    color: #333;
+}
+
+h2, h3, h4 {
+    color: #005b96; /* SolarOne blue color */
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+
+/* About Section */
+.about-us {
+    background-color: #cacfd2 ;
+    padding: 40px 0;
+    border-bottom: 2px solid #eaeaea;
+}
+
+.about-us h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.company-overview p {
+    text-align: justify;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.team-introduction {
+    margin-top: 40px;
+}
+
+.team-members {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.team-member {
+    flex-basis: 30%;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.centered {
+    margin: 0 auto;
+    width: 50%;
+    background-color: #f9f9f9;
+}
+
+.team-member h4 {
+    margin-bottom: 10px;
+    font-size: 22px;
+    color: #333;
+}
+
+.team-member p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Sustainability & Certifications */
+.sustainability-commitment, .certifications-partners {
+    margin-top: 40px;
+}
+
+.sustainability-commitment p, .certifications-partners ul {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.certifications-partners ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.certifications-partners ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #555;
+}
+
+/* Products & Services Section */
+.products-services {
+    background-color: #cacfd2 ;
+    padding: 40px 0;
+}
+
+.products-services h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.service {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.service h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #005b96;
+}
+
+.service p {
+    font-size: 18px;
+    color: #666;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-content h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    margin-bottom: 20px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #f4a261; /* A complementary hover color */
+}
+
+footer p {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .team-members {
+        flex-direction: column;
+    }
+
+    .team-member {
+        margin-bottom: 20px;
+    }
+
+    .centered {
+        width: 80%;
+    }
+}
